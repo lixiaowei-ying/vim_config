@@ -50,3 +50,11 @@ let Tlist_Process_File_Always=1 "实时更新
 "代码折叠
 set foldmethod=syntax 
 
+"插件管理pathogen
+execute pathogen#infect()
+
+"powerline
+set guifont=PowerlineSymbols\ for\ Powerline
+set nocompatible
+set t_Co=256
+let g:Powerline_symbols = 'fancy'
