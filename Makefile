@@ -1,4 +1,4 @@
-.PHONY: install uninstall
+.PHONY: install uninstall 
 
 install:
 	cp config/vimrc $(HOME)/.vimrc
